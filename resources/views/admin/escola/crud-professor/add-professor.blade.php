@@ -10,7 +10,7 @@
   <div class="card shadow mb-4">
     <div class="card-header py-3">
       <h6 class="m-0 font-weight-bold text-primary">Cadastrar Professor</h6>
-      
+
     </div>
     <div class="card-body">
       <!-- Inicio do formulario -->
@@ -56,35 +56,35 @@
 
         <div class="form-group col-md-6">
           <label for="inputPassword4">Confirmar Senha *</label>
-          <input type="email" class="form-control" id="inputPassword4" placeholder="Confirmar Senha" name="csenha_prof">
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Confirmar Senha" name="csenha_prof">
         </div>
 
         <div class="form-group col-md-6">
           <label for="inputPassword4">Senha *</label>
-          <input type="email" class="form-control" id="inputPassword4" placeholder="Senha" name="senha_prof">
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Senha" name="senha_prof">
         </div>
-        
+
         <div class="form-group col-md-4">
           <label for="inputEmail4">CPF *</label>
-          <input type="text" class="form-control" name="cpf_prof" id="cpf" placeholder="###.###.###-##" 
+          <input type="text" class="form-control" name="cpf_prof" id="cpf" placeholder="###.###.###-##"
           onkeyup="mascara('###.###.###-##',this,event,true)" maxlength="14" onblur="valida()" required>
         </div>
         <div class="form-group col-md-4">
           <label for="inputEmail4">RG</label>
-          <input type="text" class="form-control" id="rg_prof" name="rg" placeholder="##.###.###-#" 
+          <input type="text" class="form-control" id="rg_prof" name="rg" placeholder="##.###.###-#"
           onkeyup="mascara('##.###.###-#',this,event,true)" maxlength="12" required>
         </div>
 
         <div class="form-group col-md-4">
           <label for="inputState">Celular *</label>
-          <input type="text" class="form-control" id="celular" name="cel_prof" placeholder="(##)#####.####" 
+          <input type="text" class="form-control" id="celular" name="cel_prof" placeholder="(##)#####.####"
           onkeyup="mascara('(##)#####.####',this,event,true)" maxlength="14" required>
         </div>
-        
+
         <br>
         <div class="form-group col-md-12">
           <button type="submit" class="btn btn-primary">Cadastrar</button>
-         
+
           <p class="text-right">Campos Obrigatórios *</p>
         </div>
 
